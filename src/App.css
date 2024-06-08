@@ -1,0 +1,93 @@
+
+.navbar-logo {
+  width: 70px; 
+  height: auto; 
+}
+.navbar-text {
+  margin-left:600px; 
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container p {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.container .signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container .signup-link a:hover {
+  text-decoration: underline;
+}
+.container input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.cardbox{
+  margin: 3px;
+  /* border: 2px solid red; */
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap:10px;
+padding: 10px;
+}
+.card {
+  flex: 1 1 calc(33.33% - 20px); 
+  box-sizing: border-box;
+}
+.card img{
+  width:100%
+}
